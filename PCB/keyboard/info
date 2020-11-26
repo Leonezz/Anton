@@ -1,0 +1,1200 @@
+{
+  "uuid": "65ae3cd1e0d27d2cc78a8aed61df4366",
+  "path": "Offline/keyboard",
+  "name": "keyboard",
+  "content": "",
+  "created_at": "2020-11-11 10:21:34",
+  "updated_at": "2020-11-20 19:13:32",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "6c03cbc0247584d04e479056a7aecded",
+      "title": "矩阵",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fdc92ec30eb34fe28a03738d1a702ee1": 45,
+        "c02532f211eb4fc492ab7b490ded2588": 1,
+        "51dddff6adc64ebb92a1a844313dea10": 1,
+        "dda4d84633294a5585897b647d629dfa": 2,
+        "577137849e964f36bd898312edd36ffb": 84,
+        "e40e5911efc646e985fb9ac873de42b9": 39
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CHERRYMX 2U 卫星轴 COPY",
+          1,
+          "CHERRY_MX_2U_卫星轴",
+          "K2",
+          {
+            "BOM_Manufacturer Part": "Cherry MX",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8dee470d62fe46c685ca2adfae1b0752",
+            "uuid": "51dddff6adc64ebb92a1a844313dea10"
+          }
+        ],
+        [
+          "SOD4002-SH",
+          84,
+          "SOD-123F_L2.8-W1.8-LS3.7-RD",
+          "D118,D166,D165,D164,D163,D160,D121,D159,D158,D85,D1,D86,D87,D88,D89,D90,D91,D92,D93,D94,D95,D96,D97,D98,D99,D100,D101,D102,D103,D104,D105,D106,D107,D108,D109,D110,D111,D112,D113,D114,D115,D116,D117,D167,D119,D120,D162,D122,D123,D124,D125,D126,D127,D128,D129,D130,D131,D132,D133,D134,D135,D136,D137,D138,D139,D140,D141,D142,D143,D144,D145,D146,D147,D148,D149,D150,D151,D152,D153,D154,D155,D156,D157,D161",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "LRC",
+            "BOM_Manufacturer Part": "SOD4002-SH",
+            "BOM_Supplier Part": "C154996",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "e8e78627020b4795961cd17fb8b42b10",
+            "uuid": "577137849e964f36bd898312edd36ffb"
+          }
+        ],
+        [
+          "CHERRYMX 6.25U 卫星轴 COPY",
+          1,
+          "CHERRY_MX_6.25",
+          "K1",
+          {
+            "BOM_Manufacturer Part": "CherryMX",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "d4bae8478dda4787b32a6e798da017e0",
+            "uuid": "c02532f211eb4fc492ab7b490ded2588"
+          }
+        ],
+        [
+          "PCB卫星轴_2.25U",
+          2,
+          "PCB卫星轴__2.25U",
+          "U2,U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "bd016a38148e48058bbb510cdef21b7d",
+            "uuid": "dda4d84633294a5585897b647d629dfa"
+          }
+        ],
+        [
+          "倒置3528-REVERSE",
+          39,
+          "3528热插拔灯倒置",
+          "DOWN,RIGHT,PAGEDOWN,ENTER,KEY_',KEY_;,KEY_L,KEY_K,KEY_J,KEY_H,KEY_G,KEY_F,KEY_D,KEY_S,KEY_A,CAPSLOCK,KEY_1,KEY_2,KEY_3,KEY_4,KEY_5,KEY_6,KEY_7,KEY_8,KEY_9,KEY_0,KEY_-,KEY_=,BACKSPACE,HOME,KEY_&#126;,LEFT_CTRL,WIN,LEFT_ALT,SPACE,RIGHT_ALT,FN,RIGHT_CTRL,LEFT",
+          {
+            "BOM_Manufacturer Part": "CherryMX",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "be98a76e24f44f59a3a2192cf13c3176",
+            "uuid": "e40e5911efc646e985fb9ac873de42b9"
+          }
+        ],
+        [
+          "倒置3528",
+          45,
+          "3528热插拔灯倒置-NEW",
+          "R,F1,Z,C,X,N,M,B,V,END,UP,/,RIGHT_SHIFT,.,,,TAB,Q,E,W,Y,U,T,LEFT_SHIFT,],PAGEUP,\\,P,[,O,I,F8,F9,F11,F10,PAUSE,DELETE,PTRSC,F12,F4,F5,F7,F6,F2,F3,ESC",
+          {
+            "BOM_Manufacturer Part": "CherryMX",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e9a414b3ae6941fa8d8efec1ce62c7aa",
+            "uuid": "fdc92ec30eb34fe28a03738d1a702ee1"
+          }
+        ],
+        [
+          "Switch3x4x2",
+          2,
+          "KEY-3.0*4.0",
+          "RESET,BOOT",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Switch3x4x2",
+            "BOM_Supplier Part": "C26638",
+            "puuid": "ba68110cef6b4a78846b4ddd4d5ed66f",
+            "uuid": "0cc0e4eaba60fd8b5c8775e95372faa9"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R0805",
+          "R11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C188360",
+            "BOM_Manufacturer": "Ever Ohms Tech",
+            "BOM_Manufacturer Part": "TR0805B10KP0525",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "0d1b1e2a88dd4978801ad0441eaa1756"
+          }
+        ],
+        [
+          "2.54MM-4P",
+          1,
+          "HDR-TH_4P-P2.54-V",
+          "H1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C390680",
+            "BOM_Manufacturer": "PINREX",
+            "BOM_Manufacturer Part": "210-91-04GB01",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "0dea9b3141b94457bf1d85d342d185a6"
+          }
+        ],
+        [
+          "MF-NSMF050-2",
+          1,
+          "F1206",
+          "FF",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOURNS",
+            "BOM_Manufacturer Part": "MF-NSMF050-2",
+            "BOM_Supplier Part": "C75464",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "0ef2ffb5cc654f8ca80173df567cc6fb",
+            "uuid": "2ef9d1bb92eb4f8db589fe96d45e036d"
+          }
+        ],
+        [
+          "btk-05",
+          1,
+          "BTK-05-BLUTEETH",
+          "M1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0f31024012146f487d725a66624219f",
+            "uuid": "3ba5a6374f214635aa451eb387600905"
+          }
+        ],
+        [
+          "300",
+          1,
+          "R0805",
+          "R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C237136",
+            "BOM_Manufacturer": "Stackpole Elec",
+            "BOM_Manufacturer Part": "RMCF0805JT300R",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "3e41a679250f46e585e9217aa7dc5281"
+          }
+        ],
+        [
+          "XHB-2AW",
+          1,
+          "CONN-TH_XHB-2AW",
+          "CN2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C722898",
+            "BOM_Manufacturer": "CAX",
+            "BOM_Manufacturer Part": "XHB-2AW",
+            "puuid": "6873ea233ef14a22ac964a7052b376f6",
+            "uuid": "4a6aa1abf13d47cc81d5824a5bc01d76"
+          }
+        ],
+        [
+          "LED0805-GD",
+          1,
+          "LED0805-RD",
+          "STDBY_LED",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ARKLED",
+            "BOM_Manufacturer Part": "LED0805-GD",
+            "BOM_Supplier Part": "C107402",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "5e0d3111d828443ca9e2150e32220e6f"
+          }
+        ],
+        [
+          "100nF",
+          6,
+          "C0603",
+          "C7,C20,C16,C9,C18,C17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MuRata",
+            "BOM_Manufacturer Part": "GRM188R11C104KA01D",
+            "BOM_Supplier Part": "C86004",
+            "puuid": "9796ce52d844439588f46357e429be00",
+            "uuid": "62cf26e83c0ad63fd8ad54c8cab99ee2"
+          }
+        ],
+        [
+          "10uH",
+          1,
+          "IND-SMD_L4.6-W4.1",
+          "L1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C285744",
+            "BOM_Manufacturer": "Chilisin Elec",
+            "BOM_Manufacturer Part": "MHCI04020-100M-R8",
+            "puuid": "978887e140404d67a84da42b640fa05e",
+            "uuid": "65a2a5d1a6124dc2afc65b8eda9628f8"
+          }
+        ],
+        [
+          "22",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF220JT5E",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C23345",
+            "puuid": "e8901072611c4b309f15829075c906c5",
+            "uuid": "74fe16c006b24ea2d7bf8abb3b6bb847"
+          }
+        ],
+        [
+          "FC-2012HYK-588J",
+          1,
+          "LED0805-FD",
+          "LED5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NATIONSTAR",
+            "BOM_Manufacturer Part": "FC-2012HYK-588J",
+            "BOM_Supplier Part": "C84261",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "c34f9773d89049f99a2880176e0a1d56",
+            "uuid": "097b49c011d44ca6abba9dbbff2de880"
+          }
+        ],
+        [
+          "22uF",
+          2,
+          "C1206",
+          "C25,C24",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL31A226KOHNNNE",
+            "BOM_Supplier Part": "C90146",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "4214a97ab0b9e199db100e8b8771739d"
+          }
+        ],
+        [
+          "STM32F103C8T6",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "STM32F103C8T6",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C8734",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "7347be22b5856eba3ffccb74c7404572"
+          }
+        ],
+        [
+          "FC-2012HRK-620D",
+          1,
+          "LED0805-RD",
+          "LED7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NATIONSTAR",
+            "BOM_Manufacturer Part": "FC-2012HRK-620D",
+            "BOM_Supplier Part": "C84256",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "253420c7de66479fb8e0d3b66ac9ffa4"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "C0805",
+          "C15,C14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0805CG220J500NT",
+            "BOM_Supplier Part": "C24658",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "340416bf45dd4567b97eb10c027b8a3d"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "C0603",
+          "C1,C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL10A105KB8NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C15849",
+            "puuid": "9796ce52d844439588f46357e429be00",
+            "uuid": "637415f70eb949abfaeba2abe658ee9b"
+          }
+        ],
+        [
+          "FC-A2012BK-470H2",
+          1,
+          "LED0805-RD",
+          "LED4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NATIONSTAR",
+            "BOM_Manufacturer Part": "FC-A2012BK-470H2",
+            "BOM_Supplier Part": "C84259",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "968666218e494fbf868e70194c6f6da9"
+          }
+        ],
+        [
+          "TP5400",
+          1,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP",
+          "U7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TOPPOWER",
+            "BOM_Manufacturer Part": "TP5400",
+            "BOM_Supplier Part": "C24154",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "1c299b56118d49eea03a1cb3b143481c",
+            "uuid": "10246975547a40f7b288c82d5bb63e51"
+          }
+        ],
+        [
+          "LM1117S-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HTC",
+            "BOM_Manufacturer Part": "LM1117S-3.3",
+            "BOM_Supplier Part": "C126027",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "a7733dd1999e4972ab1ac55464a84185"
+          }
+        ],
+        [
+          "PRTR5V0U2X",
+          1,
+          "SOT-143_L2.9-W1.3-P1.92-LS2.3-BL",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C330092",
+            "BOM_Manufacturer": "Yenji Elec",
+            "BOM_Manufacturer Part": "PRTR5V0U2X",
+            "puuid": "2cc25ce0470c4943a529e5b6e8d088d0",
+            "uuid": "ad5bfd00f7d8497990130f5fb7204262"
+          }
+        ],
+        [
+          "1.1K",
+          1,
+          "R0805",
+          "R12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C246845",
+            "BOM_Manufacturer": "Uniroyal Elec",
+            "BOM_Manufacturer Part": "0805W8J0112T5E",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "af4cb473461b4c00af9429a7d066f32b"
+          }
+        ],
+        [
+          "SS34_C432300",
+          1,
+          "SMA_L4.4-W2.8-LS5.4-RD",
+          "D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C432300",
+            "BOM_Manufacturer": "LGE",
+            "BOM_Manufacturer Part": "SS34",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "d7458f1a60df4b52ab5bc87faaea1f8a",
+            "uuid": "b02a36375c2d4eb1b7a4163efcadc492"
+          }
+        ],
+        [
+          "220uF",
+          1,
+          "CAP-SMD_BD8.0-L8.3-W8.3-FD",
+          "C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HONOR",
+            "BOM_Manufacturer Part": "RVT1C221M0806",
+            "BOM_Supplier Part": "C86608",
+            "puuid": "1148043f90084f27ae58a03848dc59c7",
+            "uuid": "c3d8381b9fceb664de9963716b702a73"
+          }
+        ],
+        [
+          "ph2.0-50-无丝印",
+          1,
+          "CONN-TH_A2008WR-5P-无丝印",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C273103",
+            "BOM_Manufacturer": "Changjiang Connectors",
+            "BOM_Manufacturer Part": "A2008WR-5P",
+            "puuid": "a1564dd55a01499b886dc72365abc59e",
+            "uuid": "c528d52e7d4e4bcfbce517f99291718b"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C0603",
+          "C19,C23",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C138344",
+            "BOM_Manufacturer": "TORCH",
+            "BOM_Manufacturer Part": "CT41-0603-2F4-50V-0.1uF-M(N)",
+            "puuid": "9796ce52d844439588f46357e429be00",
+            "uuid": "c14558c6737d45a4b16b7eac333a4fa8"
+          }
+        ],
+        [
+          "1.5K",
+          1,
+          "R0805",
+          "R13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F1501T5E",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C4310",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "d09ae7332a80dc1866ba4e8c5e4d87b6"
+          }
+        ],
+        [
+          "12MHz",
+          1,
+          "HC-49US_L11.5-W4.5-P4.88",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YXC",
+            "BOM_Manufacturer Part": "X49SD12MSD2SC",
+            "BOM_Supplier Part": "C16369",
+            "puuid": "c3f5f0ccc4444176a5a6d81e2c6071f5",
+            "uuid": "d577337962df381bd903fdc831fb83a0"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0805",
+          "C22",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0805X106K100NT",
+            "BOM_Supplier Part": "C90543",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "f109ac718f8faef3346a673242682414"
+          }
+        ],
+        [
+          "47uF",
+          2,
+          "CAP-SMD_L3.5-W2.8-R-RD",
+          "C8,C21",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CEC",
+            "BOM_Manufacturer Part": "CA45-B-10V-47UF-K",
+            "BOM_Supplier Part": "C136658",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "08207830a388481382b20e2596f26dca",
+            "uuid": "fc46b47f8c524667a34f522a8f08f3f4"
+          }
+        ],
+        [
+          "1k",
+          3,
+          "R0805",
+          "R14,R9,R8",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "fd9f877d41dc454ea8a0c33cf6e09e22"
+          }
+        ]
+      ],
+      "updateTime": 1605628527,
+      "createTime": 1605061973,
+      "histories": [],
+      "created_at": "2020-11-11 10:32:53",
+      "updated_at": "2020-11-17 23:55:27"
+    },
+    {
+      "uuid": "8e7547b04c18c5083c88aa778717eff0",
+      "title": "主控",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "637415f70eb949abfaeba2abe658ee9b": 2,
+        "2ef9d1bb92eb4f8db589fe96d45e036d": 1,
+        "3ba5a6374f214635aa451eb387600905": 1,
+        "fd9f877d41dc454ea8a0c33cf6e09e22": 3,
+        "968666218e494fbf868e70194c6f6da9": 1,
+        "097b49c011d44ca6abba9dbbff2de880": 1,
+        "7347be22b5856eba3ffccb74c7404572": 1,
+        "340416bf45dd4567b97eb10c027b8a3d": 2,
+        "62cf26e83c0ad63fd8ad54c8cab99ee2": 6,
+        "3e41a679250f46e585e9217aa7dc5281": 1,
+        "d09ae7332a80dc1866ba4e8c5e4d87b6": 1,
+        "0d1b1e2a88dd4978801ad0441eaa1756": 1,
+        "0cc0e4eaba60fd8b5c8775e95372faa9": 2,
+        "0dea9b3141b94457bf1d85d342d185a6": 1,
+        "c14558c6737d45a4b16b7eac333a4fa8": 2,
+        "ad5bfd00f7d8497990130f5fb7204262": 1,
+        "74fe16c006b24ea2d7bf8abb3b6bb847": 2,
+        "a7733dd1999e4972ab1ac55464a84185": 1,
+        "10246975547a40f7b288c82d5bb63e51": 1,
+        "af4cb473461b4c00af9429a7d066f32b": 1,
+        "5e0d3111d828443ca9e2150e32220e6f": 1,
+        "253420c7de66479fb8e0d3b66ac9ffa4": 1,
+        "fc46b47f8c524667a34f522a8f08f3f4": 2,
+        "b02a36375c2d4eb1b7a4163efcadc492": 1,
+        "65a2a5d1a6124dc2afc65b8eda9628f8": 1,
+        "f109ac718f8faef3346a673242682414": 1,
+        "4214a97ab0b9e199db100e8b8771739d": 2,
+        "c3d8381b9fceb664de9963716b702a73": 1,
+        "9833ebeadd9ad5a06e966ed291c1bf12": 1,
+        "b7997c2138b246aeb772e142d5d7ec3d": 1,
+        "313087c8540c46e4b52c603ff2e43fcd": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CHERRYMX 2U 卫星轴 COPY",
+          1,
+          "CHERRY_MX_2U_卫星轴",
+          "K2",
+          {
+            "BOM_Manufacturer Part": "Cherry MX",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8dee470d62fe46c685ca2adfae1b0752",
+            "uuid": "51dddff6adc64ebb92a1a844313dea10"
+          }
+        ],
+        [
+          "SOD4002-SH",
+          84,
+          "SOD-123F_L2.8-W1.8-LS3.7-RD",
+          "D118,D166,D165,D164,D163,D160,D121,D159,D158,D85,D1,D86,D87,D88,D89,D90,D91,D92,D93,D94,D95,D96,D97,D98,D99,D100,D101,D102,D103,D104,D105,D106,D107,D108,D109,D110,D111,D112,D113,D114,D115,D116,D117,D167,D119,D120,D162,D122,D123,D124,D125,D126,D127,D128,D129,D130,D131,D132,D133,D134,D135,D136,D137,D138,D139,D140,D141,D142,D143,D144,D145,D146,D147,D148,D149,D150,D151,D152,D153,D154,D155,D156,D157,D161",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "LRC",
+            "BOM_Manufacturer Part": "SOD4002-SH",
+            "BOM_Supplier Part": "C154996",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "e8e78627020b4795961cd17fb8b42b10",
+            "uuid": "577137849e964f36bd898312edd36ffb"
+          }
+        ],
+        [
+          "CHERRYMX 6.25U 卫星轴 COPY",
+          1,
+          "CHERRY_MX_6.25",
+          "K1",
+          {
+            "BOM_Manufacturer Part": "CherryMX",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "d4bae8478dda4787b32a6e798da017e0",
+            "uuid": "c02532f211eb4fc492ab7b490ded2588"
+          }
+        ],
+        [
+          "PCB卫星轴_2.25U",
+          2,
+          "PCB卫星轴__2.25U",
+          "U2,U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "bd016a38148e48058bbb510cdef21b7d",
+            "uuid": "dda4d84633294a5585897b647d629dfa"
+          }
+        ],
+        [
+          "倒置3528-REVERSE",
+          39,
+          "3528热插拔灯倒置",
+          "DOWN,RIGHT,PAGEDOWN,ENTER,KEY_',KEY_;,KEY_L,KEY_K,KEY_J,KEY_H,KEY_G,KEY_F,KEY_D,KEY_S,KEY_A,CAPSLOCK,KEY_1,KEY_2,KEY_3,KEY_4,KEY_5,KEY_6,KEY_7,KEY_8,KEY_9,KEY_0,KEY_-,KEY_=,BACKSPACE,HOME,KEY_~,LEFT_CTRL,WIN,LEFT_ALT,SPACE,RIGHT_ALT,FN,RIGHT_CTRL,LEFT",
+          {
+            "BOM_Manufacturer Part": "CherryMX",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "be98a76e24f44f59a3a2192cf13c3176",
+            "uuid": "e40e5911efc646e985fb9ac873de42b9"
+          }
+        ],
+        [
+          "倒置3528",
+          45,
+          "3528热插拔灯倒置-NEW",
+          "R,F1,Z,C,X,N,M,B,V,END,UP,/,RIGHT_SHIFT,.,,,TAB,Q,E,W,Y,U,T,LEFT_SHIFT,],PAGEUP,\\,P,[,O,I,F8,F9,F11,F10,PAUSE,DELETE,PTRSC,F12,F4,F5,F7,F6,F2,F3,ESC",
+          {
+            "BOM_Manufacturer Part": "CherryMX",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e9a414b3ae6941fa8d8efec1ce62c7aa",
+            "uuid": "fdc92ec30eb34fe28a03738d1a702ee1"
+          }
+        ],
+        [
+          "Switch3x4x2",
+          2,
+          "KEY-3.0*4.0",
+          "BOOT,RESET",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Switch3x4x2",
+            "BOM_Supplier Part": "C26638",
+            "puuid": "ba68110cef6b4a78846b4ddd4d5ed66f",
+            "uuid": "0cc0e4eaba60fd8b5c8775e95372faa9"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R0805",
+          "R11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C188360",
+            "BOM_Manufacturer": "Ever Ohms Tech",
+            "BOM_Manufacturer Part": "TR0805B10KP0525",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "0d1b1e2a88dd4978801ad0441eaa1756"
+          }
+        ],
+        [
+          "2.54MM-4P",
+          1,
+          "HDR-TH_4P-P2.54-V",
+          "H1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C390680",
+            "BOM_Manufacturer": "PINREX",
+            "BOM_Manufacturer Part": "210-91-04GB01",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "0dea9b3141b94457bf1d85d342d185a6"
+          }
+        ],
+        [
+          "MF-NSMF050-2",
+          1,
+          "F1206",
+          "FF",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOURNS",
+            "BOM_Manufacturer Part": "MF-NSMF050-2",
+            "BOM_Supplier Part": "C75464",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "0ef2ffb5cc654f8ca80173df567cc6fb",
+            "uuid": "2ef9d1bb92eb4f8db589fe96d45e036d"
+          }
+        ],
+        [
+          "btk-05",
+          1,
+          "BTK-05-BLUTEETH",
+          "M1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0f31024012146f487d725a66624219f",
+            "uuid": "3ba5a6374f214635aa451eb387600905"
+          }
+        ],
+        [
+          "300",
+          1,
+          "R0805",
+          "R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C237136",
+            "BOM_Manufacturer": "Stackpole Elec",
+            "BOM_Manufacturer Part": "RMCF0805JT300R",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "3e41a679250f46e585e9217aa7dc5281"
+          }
+        ],
+        [
+          "LED0805-GD",
+          1,
+          "LED0805-RD",
+          "STDBY_LED",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ARKLED",
+            "BOM_Manufacturer Part": "LED0805-GD",
+            "BOM_Supplier Part": "C107402",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "5e0d3111d828443ca9e2150e32220e6f"
+          }
+        ],
+        [
+          "100nF",
+          6,
+          "C0603",
+          "C16,C20,C7,C18,C9,C17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MuRata",
+            "BOM_Manufacturer Part": "GRM188R11C104KA01D",
+            "BOM_Supplier Part": "C86004",
+            "puuid": "9796ce52d844439588f46357e429be00",
+            "uuid": "62cf26e83c0ad63fd8ad54c8cab99ee2"
+          }
+        ],
+        [
+          "10uH",
+          1,
+          "IND-SMD_L4.6-W4.1",
+          "L1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C285744",
+            "BOM_Manufacturer": "Chilisin Elec",
+            "BOM_Manufacturer Part": "MHCI04020-100M-R8",
+            "puuid": "978887e140404d67a84da42b640fa05e",
+            "uuid": "65a2a5d1a6124dc2afc65b8eda9628f8"
+          }
+        ],
+        [
+          "22",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF220JT5E",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C23345",
+            "puuid": "e8901072611c4b309f15829075c906c5",
+            "uuid": "74fe16c006b24ea2d7bf8abb3b6bb847"
+          }
+        ],
+        [
+          "FC-2012HYK-588J",
+          1,
+          "LED0805-FD",
+          "LED5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NATIONSTAR",
+            "BOM_Manufacturer Part": "FC-2012HYK-588J",
+            "BOM_Supplier Part": "C84261",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "c34f9773d89049f99a2880176e0a1d56",
+            "uuid": "097b49c011d44ca6abba9dbbff2de880"
+          }
+        ],
+        [
+          "22uF",
+          2,
+          "C1206",
+          "C24,C25",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL31A226KOHNNNE",
+            "BOM_Supplier Part": "C90146",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "4214a97ab0b9e199db100e8b8771739d"
+          }
+        ],
+        [
+          "STM32F103C8T6",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "STM32F103C8T6",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C8734",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "7347be22b5856eba3ffccb74c7404572"
+          }
+        ],
+        [
+          "1.25T-4PWT",
+          1,
+          "CONN-SMD_4P-P1.25_1.25T-4PWT",
+          "CN2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "1.25T-4PWT",
+            "BOM_Supplier Part": "C31597",
+            "puuid": "283ab58d4e984107b063e8ad0079b758",
+            "uuid": "9833ebeadd9ad5a06e966ed291c1bf12"
+          }
+        ],
+        [
+          "FC-2012HRK-620D",
+          1,
+          "LED0805-RD",
+          "LED7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NATIONSTAR",
+            "BOM_Manufacturer Part": "FC-2012HRK-620D",
+            "BOM_Supplier Part": "C84256",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "253420c7de66479fb8e0d3b66ac9ffa4"
+          }
+        ],
+        [
+          "A1254WR-S-2P",
+          1,
+          "CONN-SMD_A1254WR-S-2P",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C272975",
+            "BOM_Manufacturer": "Changjiang Connectors",
+            "BOM_Manufacturer Part": "A1254WR-S-2P",
+            "puuid": "beed71370161415f8030311eff6fed45",
+            "uuid": "313087c8540c46e4b52c603ff2e43fcd"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "C0805",
+          "C14,C15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0805CG220J500NT",
+            "BOM_Supplier Part": "C24658",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "340416bf45dd4567b97eb10c027b8a3d"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "C0603",
+          "C2,C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL10A105KB8NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C15849",
+            "puuid": "9796ce52d844439588f46357e429be00",
+            "uuid": "637415f70eb949abfaeba2abe658ee9b"
+          }
+        ],
+        [
+          "FC-A2012BK-470H2",
+          1,
+          "LED0805-RD",
+          "LED4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NATIONSTAR",
+            "BOM_Manufacturer Part": "FC-A2012BK-470H2",
+            "BOM_Supplier Part": "C84259",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "968666218e494fbf868e70194c6f6da9"
+          }
+        ],
+        [
+          "TP5400",
+          1,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP",
+          "U7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TOPPOWER",
+            "BOM_Manufacturer Part": "TP5400",
+            "BOM_Supplier Part": "C24154",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "1c299b56118d49eea03a1cb3b143481c",
+            "uuid": "10246975547a40f7b288c82d5bb63e51"
+          }
+        ],
+        [
+          "LM1117S-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HTC",
+            "BOM_Manufacturer Part": "LM1117S-3.3",
+            "BOM_Supplier Part": "C126027",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "a7733dd1999e4972ab1ac55464a84185"
+          }
+        ],
+        [
+          "PRTR5V0U2X",
+          1,
+          "SOT-143_L2.9-W1.3-P1.92-LS2.3-BL",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C330092",
+            "BOM_Manufacturer": "Yenji Elec",
+            "BOM_Manufacturer Part": "PRTR5V0U2X",
+            "puuid": "2cc25ce0470c4943a529e5b6e8d088d0",
+            "uuid": "ad5bfd00f7d8497990130f5fb7204262"
+          }
+        ],
+        [
+          "1.1K",
+          1,
+          "R0805",
+          "R12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C246845",
+            "BOM_Manufacturer": "Uniroyal Elec",
+            "BOM_Manufacturer Part": "0805W8J0112T5E",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "af4cb473461b4c00af9429a7d066f32b"
+          }
+        ],
+        [
+          "SS34_C432300",
+          1,
+          "SMA_L4.4-W2.8-LS5.4-RD",
+          "D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C432300",
+            "BOM_Manufacturer": "LGE",
+            "BOM_Manufacturer Part": "SS34",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "d7458f1a60df4b52ab5bc87faaea1f8a",
+            "uuid": "b02a36375c2d4eb1b7a4163efcadc492"
+          }
+        ],
+        [
+          "12MHz",
+          1,
+          "HC-49S_L11.4-W4.8",
+          "X2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C295091",
+            "BOM_Manufacturer": "TAITIEN Elec",
+            "BOM_Manufacturer Part": "XJHCELNANF-12MHZ",
+            "puuid": "ab55c27f65434147992cf99f2f5b61ca",
+            "uuid": "b7997c2138b246aeb772e142d5d7ec3d"
+          }
+        ],
+        [
+          "220uF",
+          1,
+          "CAP-SMD_BD8.0-L8.3-W8.3-FD",
+          "C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HONOR",
+            "BOM_Manufacturer Part": "RVT1C221M0806",
+            "BOM_Supplier Part": "C86608",
+            "puuid": "1148043f90084f27ae58a03848dc59c7",
+            "uuid": "c3d8381b9fceb664de9963716b702a73"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C0603",
+          "C19,C23",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C138344",
+            "BOM_Manufacturer": "TORCH",
+            "BOM_Manufacturer Part": "CT41-0603-2F4-50V-0.1uF-M(N)",
+            "puuid": "9796ce52d844439588f46357e429be00",
+            "uuid": "c14558c6737d45a4b16b7eac333a4fa8"
+          }
+        ],
+        [
+          "1.5K",
+          1,
+          "R0805",
+          "R13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F1501T5E",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C4310",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "d09ae7332a80dc1866ba4e8c5e4d87b6"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0805",
+          "C22",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0805X106K100NT",
+            "BOM_Supplier Part": "C90543",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "f109ac718f8faef3346a673242682414"
+          }
+        ],
+        [
+          "47uF",
+          2,
+          "CAP-SMD_L3.5-W2.8-R-RD",
+          "C21,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CEC",
+            "BOM_Manufacturer Part": "CA45-B-10V-47UF-K",
+            "BOM_Supplier Part": "C136658",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "08207830a388481382b20e2596f26dca",
+            "uuid": "fc46b47f8c524667a34f522a8f08f3f4"
+          }
+        ],
+        [
+          "1k",
+          3,
+          "R0805",
+          "R8,R14,R9",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "fd9f877d41dc454ea8a0c33cf6e09e22"
+          }
+        ]
+      ],
+      "updateTime": 1605773863,
+      "createTime": 1605096631,
+      "histories": [],
+      "created_at": "2020-11-11 20:10:31",
+      "updated_at": "2020-11-19 16:17:43"
+    },
+    {
+      "uuid": "45dcbe13d142d5ef0467cdf95c0b0868",
+      "puuid": "65ae3cd1e0d27d2cc78a8aed61df4366",
+      "title": "PCB_2020-11-14_19-50-01",
+      "filename": "PCB_2020-11-14_19-50-01.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "beed71370161415f8030311eff6fed45": 1,
+        "bd016a38148e48058bbb510cdef21b7d": 2,
+        "31a453d5adfc45cea944a6450adf2918": 1,
+        "be98a76e24f44f59a3a2192cf13c3176": 39,
+        "ab55c27f65434147992cf99f2f5b61ca": 1,
+        "283ab58d4e984107b063e8ad0079b758": 1,
+        "d0f31024012146f487d725a66624219f": 1,
+        "ba68110cef6b4a78846b4ddd4d5ed66f": 2,
+        "4a13c433861640209b7106f419770da9": 1,
+        "e8e78627020b4795961cd17fb8b42b10": 84,
+        "769626f169ec49d9867bc27eb696b6b9": 7,
+        "0ef2ffb5cc654f8ca80173df567cc6fb": 1,
+        "9796ce52d844439588f46357e429be00": 10,
+        "e8901072611c4b309f15829075c906c5": 2,
+        "c34f9773d89049f99a2880176e0a1d56": 1,
+        "bbc61cb2bd3840b290cf4f8db68b3c00": 3,
+        "a267edbe7c3c4a16b85fd51e936458d0": 3,
+        "978887e140404d67a84da42b640fa05e": 1,
+        "b4235c9f870d443994cfe44a496e36ac": 2,
+        "1c299b56118d49eea03a1cb3b143481c": 1,
+        "9082a541b5494ed9bac7de7d69bd2f2d": 1,
+        "d7458f1a60df4b52ab5bc87faaea1f8a": 1,
+        "1148043f90084f27ae58a03848dc59c7": 1,
+        "08207830a388481382b20e2596f26dca": 2,
+        "2cc25ce0470c4943a529e5b6e8d088d0": 1,
+        "e9a414b3ae6941fa8d8efec1ce62c7aa": 45,
+        "8dee470d62fe46c685ca2adfae1b0752": 1,
+        "d4bae8478dda4787b32a6e798da017e0": 1
+      },
+      "BOM": [],
+      "updateTime": 1605870812,
+      "createTime": 1605354601,
+      "histories": [],
+      "created_at": "2020-11-14 19:50:01",
+      "updated_at": "2020-11-20 19:13:32"
+    }
+  ],
+  "sort": [
+    "6c03cbc0247584d04e479056a7aecded",
+    "8e7547b04c18c5083c88aa778717eff0"
+  ],
+  "title": "keyboard",
+  "foldername": "keyboard",
+  "schfilename": "keyboard.json",
+  "schfilemtime": 1605773863768
+}

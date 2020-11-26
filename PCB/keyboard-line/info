@@ -1,0 +1,89 @@
+{
+  "uuid": "926248de55d26b4b1c5a5645d3a1b97c",
+  "path": "Offline/keyboard-line",
+  "name": "keyboard-line",
+  "content": "",
+  "created_at": "2020-11-18 18:22:22",
+  "updated_at": "2020-11-18 18:22:52",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d3cd5b48eec12a77206553dfafc1e5d8",
+      "puuid": "926248de55d26b4b1c5a5645d3a1b97c",
+      "title": "键线分离拼板2_2020-11-18_18-16-22",
+      "filename": "键线分离拼板2_2020-11-18_18-16-22.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a1564dd55a01499b886dc72365abc59e": 24
+      },
+      "BOM": [],
+      "updateTime": 1605694953,
+      "createTime": 1605694953,
+      "histories": [],
+      "created_at": "2020-11-18 18:22:33",
+      "updated_at": "2020-11-18 18:22:33"
+    },
+    {
+      "uuid": "cac511b47e506bce556067a0697ec29b",
+      "title": "原理图",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e9665e0c81fa469396b88822955bfc9e": 1,
+        "c528d52e7d4e4bcfbce517f99291718b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "ph2.0-50-无丝印",
+          1,
+          "CONN-TH_A2008WR-5P-无丝印",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C273103",
+            "BOM_Manufacturer": "Changjiang Connectors",
+            "BOM_Manufacturer Part": "A2008WR-5P",
+            "puuid": "a1564dd55a01499b886dc72365abc59e",
+            "uuid": "c528d52e7d4e4bcfbce517f99291718b"
+          }
+        ],
+        [
+          "TYPE-C16PIN",
+          1,
+          "USB-C-SMD_TYPE-C16PIN",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C393939",
+            "BOM_Manufacturer": "SHOU HAN",
+            "BOM_Manufacturer Part": "TYPE-C16PIN",
+            "puuid": "6d4ccf98d88248ecab1247f9e0c9ea9d",
+            "uuid": "e9665e0c81fa469396b88822955bfc9e"
+          }
+        ]
+      ],
+      "updateTime": 1605694972,
+      "createTime": 1605694972,
+      "histories": [],
+      "created_at": "2020-11-18 18:22:52",
+      "updated_at": "2020-11-18 18:22:52"
+    }
+  ],
+  "sort": [],
+  "title": "keyboard-line",
+  "foldername": "keyboard-line",
+  "schfilename": "keyboard-line.json",
+  "schfilemtime": 1605694972872
+}
