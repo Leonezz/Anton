@@ -86,7 +86,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_DeInit();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -94,8 +94,14 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+    HAL_GPIO_WritePin(RGB_GPIO_Port,RGB_Pin,1);
+    HAL_Delay(1);
+    HAL_GPIO_WritePin(RGB_GPIO_Port,RGB_Pin,0);
+    HAL_Delay(1);
+
 
     /* USER CODE BEGIN 3 */
+
   }
   /* USER CODE END 3 */
 }
@@ -150,16 +156,27 @@ static void MX_GPIO_Init(void)
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(RGB_GPIO_Port, RGB_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, RGB_Pin|B3_Pin|B4_Pin|B7_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : RGB_Pin */
-  GPIO_InitStruct.Pin = RGB_Pin;
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(A15_GPIO_Port, A15_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : RGB_Pin B3_Pin B4_Pin B7_Pin */
+  GPIO_InitStruct.Pin = RGB_Pin|B3_Pin|B4_Pin|B7_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(RGB_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : A15_Pin */
+  GPIO_InitStruct.Pin = A15_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(A15_GPIO_Port, &GPIO_InitStruct);
 
 }
 
